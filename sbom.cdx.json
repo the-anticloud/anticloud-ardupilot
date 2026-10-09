@@ -1,0 +1,116 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:fa36248f-065c-533a-8584-b83def254068",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:53:10Z",
+    "component": {
+      "type": "application",
+      "name": "ARDUPILOT",
+      "version": "cafe67457776",
+      "bom-ref": "pkg:generic/anticloud/ARDUPILOT@cafe67457776",
+      "purl": "pkg:generic/anticloud/ARDUPILOT@cafe67457776",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "cafe67457776027a1bad6e165c409828c1a851e5"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/ArduPilot/ardupilot"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "ament_cmake",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake",
+      "bom-ref": "native/ament_cmake@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_python",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_python",
+      "bom-ref": "native/ament_cmake_python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_lint_auto",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_lint_auto",
+      "bom-ref": "native/ament_lint_auto@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_pytest",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_pytest",
+      "bom-ref": "native/ament_cmake_pytest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geometry_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/geometry_msgs",
+      "bom-ref": "native/geometry_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "std_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/std_msgs",
+      "bom-ref": "native/std_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rosidl_default_generators",
+      "version": "unspecified",
+      "purl": "pkg:generic/rosidl_default_generators",
+      "bom-ref": "native/rosidl_default_generators@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "time_listener",
+      "version": "= ardupilot_dds_tests.time_listener:main",
+      "purl": "pkg:pypi/time-listener@ardupilot_dds_tests.time_listener:main",
+      "bom-ref": "pypi/time_listener@= ardupilot_dds_tests.time_listener:main"
+    },
+    {
+      "type": "library",
+      "name": "plane_waypoint_follower",
+      "version": "= ardupilot_dds_tests.plane_waypoint_follower:main",
+      "purl": "pkg:pypi/plane-waypoint-follower@ardupilot_dds_tests.plane_waypoint_follower:main",
+      "bom-ref": "pypi/plane_waypoint_follower@= ardupilot_dds_tests.plane_waypoint_follower:main"
+    },
+    {
+      "type": "library",
+      "name": "pre_arm_check",
+      "version": "= ardupilot_dds_tests.pre_arm_check_service:main",
+      "purl": "pkg:pypi/pre-arm-check@ardupilot_dds_tests.pre_arm_check_service:main",
+      "bom-ref": "pypi/pre_arm_check@= ardupilot_dds_tests.pre_arm_check_service:main"
+    },
+    {
+      "type": "library",
+      "name": "copter_takeoff",
+      "version": "= ardupilot_dds_tests.copter_takeoff:main",
+      "purl": "pkg:pypi/copter-takeoff@ardupilot_dds_tests.copter_takeoff:main",
+      "bom-ref": "pypi/copter_takeoff@= ardupilot_dds_tests.copter_takeoff:main"
+    }
+  ]
+}
